@@ -1,0 +1,42 @@
+#id-titulo{
+    background-color: red;
+    height: 60px;
+    margin-left: 80px;
+    text-align: left;
+    color: white;
+
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#id-logo{
+    background-color: red;
+    margin-top: -80px;
+    margin-left: -10px;
+    display: block;
+}
+
+#id-drowdown {
+    display: block;
+    margin-top: 15px;
+    margin-left: 10px;
+    rotate: 0deg;
+    transition: 0.5s;
+}
+
+#id-drowdown:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+#id-drowdown:active {
+    transform: scale(1.7);
+    transition: 0.5s;
+    
+}
+body {
+    background-image: url(../calendario.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
